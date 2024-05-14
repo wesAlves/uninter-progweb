@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Protfolio - Wesley Benvindo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<header class="header">
+    <div class="profile-image">
+        <img src="foto_perfil.jpg" alt="wesley_benvindo.jpg">
+    </div>
+    <h1>Wesley Benvindo - Portfolio</h1>
+</header>
+
+<div class="container d-flex">
+    <nav class="side-menu">
+        <ul class="menu">
+            <li>
+                <a href="index.html">
+                    <span class="menu-item-icon"><></span> Sobre mim</a>
+            </li>
+            <li>
+                <a href="formacao.html">
+                    <span class="menu-item-icon"><></span> Formação</a>
+            </li>
+            <li>
+                <a href="portfolio.html" class="active">
+                    <span class="menu-item-icon"><></span> Portifolio</a>
+            </li>
+            <li>
+                <a href="contato.html">
+                    <span class="menu-item-icon"><></span> Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <div class="content">
+            <section id="sobre_mim">
+                <h2 class="titles"><span class="js-tags">const</span><span
+                        class="html-tags">Portfolio =&emsp;</span><span class="js-function">getTrabalhos();</span>
+                </h2>
+
+                <p class=""><span class="html-tags">portfolio</span>.<span class="js-function">map</span>(trabalho => {
+                </p>
+
+                <div class="portfolio-card-group">
+                    <div class="portfolio-card">
+                        <img src="./img/portfolio/samaratian.png" alt="samaratian.tech" class="thumb">
+                        <h3 class="title">samaratian.tech</h3>
+                        <p class="description">Website desenvolvido para um parceiro de trabalho, onde juntos foram
+                            definidos os conteúdos e estrutura, o projeto foi realizado em 2023</p>
+
+                    </div>
+
+                    <div class="portfolio-card">
+                        <img src="./img/portfolio/rossana.png" alt="" class="thumb">
+                        <h3 class="title">rossanaadvocacia.com.br</h3>
+                        <p class="description">Site desenvolvido para uma adivogada que atual na região de
+                            florianópolis. O projeto foi realizado em 2024</p>
+
+                    </div>
+
+                    <div class="portfolio-card">
+                        <img src="./img/portfolio/lbh.jpg" alt="" class="thumb">
+                        <h3 class="title">lbh.co.uk</h3>
+                        <p class="description">Site desenvolvido para um salão de beleza em Londres, desenvolvido
+                            juntamente com minha sócia Bruna Flôr. O projeto foi realizado em 2018 com a última
+                            alualização em 2024</p>
+
+                    </div>
+
+                </div>
+
+                <p>})</p>
+
+
+            </section>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>

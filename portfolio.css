@@ -1,0 +1,36 @@
+.portfolio-card-group {
+    margin: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+}
+
+.portfolio-card {
+    background: var(--foreground);
+    border-radius: 8px;
+    max-width: 384px;
+    overflow: hidden;
+    padding-bottom: 32px;
+}
+
+.portfolio-card > .title,
+.portfolio-card > .description,
+.portfolio-card > .title {
+    color: var(--bg-main);
+    padding: 0 32px;
+}
+
+.portfolio-card > .description {
+    line-height: 1.5rem;
+    overflow: scroll;
+    height: calc(240px - 32px);
+}
+
+.portfolio-card > .thumb {
+    background: gray;
+    width: 100%;
+    height: calc(240px - 32px);
+    margin-bottom: 32px;
+}
+
