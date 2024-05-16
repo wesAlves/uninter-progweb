@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
+/*Aqui são variáveis que criei para facilitar trocar as cores quando quiser*/
 :root {
     --bg-main: #282a36;
     --current-line: #44475a;
@@ -17,6 +18,7 @@
 
 }
 
+/*Daqui para baixo está organizado em regras gerais e específicas, algunas estão divididas por blocos*/
 .mb-2rem {
     margin-bottom: 2rem;
 }
@@ -50,6 +52,7 @@ p {
     display: flex;
     flex-direction: column;
 }
+
 .f-row {
     display: flex;
     flex-direction: column;
@@ -74,16 +77,16 @@ p {
     gap: 32px;
 }
 
-.profile-image{
+.profile-image {
     width: 64px;
     height: 64px;
     border-radius: 64px;
-    border:4px solid white;
+    border: 4px solid white;
     display: block;
     overflow: hidden;
 }
 
-.profile-image > img{
+.profile-image > img {
     width: 100%;
     margin: -46px 0;
 }
@@ -169,23 +172,23 @@ p {
     /*opacity: .6;*/
 }
 
-.js-tags{
+.js-tags {
     color: var(--orange);
     /*font-size: 16px;*/
     margin-right: 1rem;
 }
 
-.js-function{
+.js-function {
     color: var(--cyan);
 }
 
-.form-item{
+.form-item {
     width: 100%;
     display: flex;
     align-items: start;
 }
 
-.form-item > label{
+.form-item > label {
     width: 25%;
     display: inline-block;
     text-align: right;
@@ -208,7 +211,6 @@ p {
     padding: 8px 16px;
     color: var(--bg-main);
 }
-
 
 
 /*### END CONTENT MENU ###*/
